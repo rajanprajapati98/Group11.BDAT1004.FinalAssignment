@@ -1,0 +1,4 @@
+cron:
+- description: "daily update database"
+  url: /api/v1/scrape_data
+  schedule: every 24 hours

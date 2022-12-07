@@ -1,0 +1,21 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10px;
+}
+
+.give-spacing{
+    margin: 0 100px;
+}
+
+input[type="checkbox"] + label {
+    cursor: pointer;
+    padding: 0 0 0 5px;
+    position: relative;
+    display: inline-block;
+    color: #000;
+}
+
+
